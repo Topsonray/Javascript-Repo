@@ -11,8 +11,22 @@ function lifeInWeeks(age) {
     yearLeft=(90-age)*12;
     console.log("You have:" +daysLeft +'days' + ',' +weeksLeft +'weeks'+ ',' +monthsLeft +'months'+'left');
    
-   
-   
+
    
 /*************Don't change the code below**********/
 }
+
+
+
+// ******************************LOVE CALCULATE************************************************
+
+
+function loveCalculator(name1, name2) {
+   
+    let matchPercentage = Math.floor(Math.random() * 101);
+    
+    return `${name1} and ${name2} are ${matchPercentage}% match!!`;
+}
+
+let result = loveCalculator("John", "Mary");
+console.log(result);++
